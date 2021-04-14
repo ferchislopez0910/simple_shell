@@ -31,7 +31,7 @@ This is an example on how to use _shell_:
 
 You can also get more information and see some examples by consulting the **man_1_simple_shell** page, using this command:
 
-**man ./man_1_simple_shell**
+**man man_1_simple_shell**
 
 ### Authors :black_nib:
 
