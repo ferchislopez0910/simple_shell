@@ -15,7 +15,6 @@ int main(void)
 }
 /**
  * simple_shell - function containing the main functions
- *
  * Return: int
  */
 
