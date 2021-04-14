@@ -6,8 +6,8 @@ char **tokenizer(char *alloc)
 	char *aux = NULL;
 	int i, j;
 
-	for (j = 0; alloc[j] != '\0'; j++)
-		;
+	j = count_words(alloc);
+
 	tokens = malloc(sizeof(char *) * (j + 1));
 	if (tokens == NULL)
 	{
@@ -21,4 +21,35 @@ char **tokenizer(char *alloc)
 	}
 	tokens[i] = NULL;
 	return (tokens);
+}
+
+int count_words(char *alloc)
+{
+	int i = 0;
+	int count = 0;
+	char *cp = alloc;
+
+	if (alloc != '\0')
+	{
+		while (alloc[i] != '\0')
+		{
+			if ((alloc[i] == ' ') || (alloc[i] == '\n') || (alloc[i] == '\t'))
+			{
+				if ((alloc[i - 1] != ' ') && (cp[0] != alloc[i]))
+				{
+					count++;
+				}
+				if ((alloc[i - 1] != '\n') && (cp[0] != alloc[i]))
+				{
+					count++;
+				}
+				if ((alloc[i - 1] != '\t') && (cp[0] != alloc[i]))
+				{
+					count++;
+				}
+			}
+			i++;
+		}
+	}
+	return (count);
 }

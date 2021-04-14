@@ -16,7 +16,9 @@ extern char **environ;
 int simple_shell(void);
 char *get_line(char *alloc, size_t size);
 char **tokenizer(char *alloc);
+int count_words(char *alloc);
 int execute(char **line_args);
+void not_interactive(void);
 
 char *find_path(void);
 char *pathfound(char *args);
