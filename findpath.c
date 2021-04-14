@@ -34,6 +34,7 @@ char *find_path(void)
  */
 char *pathfound(char *args)
 {
+	struct stat dir;
 	char *route = NULL;
 	char *token = NULL, *hold_token = NULL;
 	char *new_token = NULL;
