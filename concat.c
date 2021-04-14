@@ -1,5 +1,10 @@
 #include "shell.h"
-
+/**
+ * concat_path_with_line - concat the path routh with args
+ * @path: args.
+ * @token: tokenize path
+ * Return: char poitner
+ */
 char *concat_path_with_line(char *path, char *token)
 {
 	char *concat = NULL;
@@ -31,7 +36,12 @@ char *concat_path_with_line(char *path, char *token)
 	concat[i + 1] = '\0';
 	return (concat);
 }
-
+/**
+ * _strlen_concat - function to count chars concatenated
+ * @path_token: tokenize path
+ * @line_token: tokenize args
+ * Return: total size + charater null
+ */
 int _strlen_concat(char *path_token, char *line_token)
 {
 	int sz;

@@ -1,5 +1,9 @@
 #include "shell.h"
-
+/**
+ * execute - creates a new process id and execute command
+ * @line_args: args to execute
+ * Return: 0 on success
+ */
 int execute(char **line_args)
 {
 	pid_t pid;
@@ -18,7 +22,7 @@ int execute(char **line_args)
 	else if (pid == 0)
 	{
 		execve(line_args[0], line_args, environ);
-		return (0);	
+		return (0);
 	}
 	return (-1);
 }

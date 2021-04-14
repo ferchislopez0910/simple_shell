@@ -1,5 +1,10 @@
 #include "shell.h"
-
+/**
+ * get_line - get the line objects
+ * @alloc: string on line
+ * @size: size of string
+ * Return: string
+ */
 char *get_line(char *alloc, size_t size)
 {
 	ssize_t line = getline(&alloc, &size, stdin);
@@ -15,5 +20,5 @@ char *get_line(char *alloc, size_t size)
 		free(alloc);
 		return (NULL);
 	}
-	return(alloc);
+	return (alloc);
 }

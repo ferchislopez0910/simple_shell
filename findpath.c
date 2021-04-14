@@ -1,5 +1,8 @@
 #include "shell.h"
-
+/**
+ * find_path - find the path on enviroment
+ * Return: function pointer
+ */
 char *find_path(void)
 {
 	char *path_token = NULL;
@@ -17,15 +20,18 @@ char *find_path(void)
 		if (_strcmp(path_token, "PATH") == 0)
 		{
 			free(cp);
-			return(environ[i]);
+			return (environ[i]);
 		}
 		i++;
 		free(cp);
 	}
 	return (NULL);
 }
-
-
+/**
+ * pathfound - locate the path route
+ * @args: tokenize args.
+ * Return: pointer function
+ */
 char *pathfound(char *args)
 {
 	char *route = NULL;
@@ -58,7 +64,6 @@ char *pathfound(char *args)
 		token = strtok(NULL, " :");
 		free(new_token);
 	}
-	//free(new_token);
 	free(route);
 	return (NULL);
 }
