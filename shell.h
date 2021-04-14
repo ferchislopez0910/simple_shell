@@ -10,7 +10,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-struct stat dir;
 extern char **environ;
 
 int simple_shell(void);

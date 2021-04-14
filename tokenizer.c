@@ -1,5 +1,9 @@
 #include "shell.h"
-
+/**
+ * tokenizer - function that tokenizer
+ * @alloc: Pointer of line arguments.
+ * Return: pointer char.
+ */
 char **tokenizer(char *alloc)
 {
 	char **tokens = NULL;
@@ -22,6 +26,11 @@ char **tokenizer(char *alloc)
 	tokens[i] = NULL;
 	return (tokens);
 }
+/**
+ * count_words - counter words
+ * @alloc: Pointer of line arguments
+ * Return: int.
+ */
 
 int count_words(char *alloc)
 {
