@@ -9,17 +9,11 @@ operating system.
 ./hsh [command] [arg]
 
 .SH DESCRIPTION
-Simple_Shell es un intérprete de comandos ingresados a la línea de entrada 
-de comandos, lo que permite realizar diferentes órdenes.
+Simple_Shell is an interpreter of commands entered at the command line input,
+which allows you to perform different commands. 
 
 .SH Return
 If successful 0 and if not error message with: File or command not found.
-
-
-
-.SH AUTHOR
-Nombre del autor del programa, se suele incluir su nombre y la dirección de
-contacto, el email, normalmente.
 
 .SH PATH
 This is the path which it will tap and execute to find the command 
@@ -36,27 +30,47 @@ The commands you can execute:
 .SH EXAMPLE
 
 [command] [arg]
-$ ls -l *.c
+
+$ ls -l
 
 -rw-r--r-- 1 developer developer 1092 Apr 14 00:43 builtins1.c
+
 -rw-r--r-- 1 developer developer 1025 Apr 13 23:55 concat.c
+
 -rw-r--r-- 1 developer developer  418 Apr 13 23:55 execute.c
+
 -rw-r--r-- 1 developer developer 1195 Apr 14 00:17 findpath.c
+
 -rw-r--r-- 1 developer developer 1369 Apr 13 23:55 function_strings.c
+
 -rw-r--r-- 1 developer developer  409 Apr 13 23:55 get_line.c
+
 -rw-r--r-- 1 developer developer  586 Apr 14 00:18 not_interac.c
+
 -rw-r--r-- 1 developer developer  855 Apr 14 00:20 shell.c
+
 -rw-r--r-- 1 developer developer 1068 Apr 14 00:03 tokenizer.c
+
 Mafe simple_shell ±|main ✗|→ ls -l *.c
+
 -rw-r--r-- 1 developer developer 1092 Apr 14 00:43 builtins1.c
+
 -rw-r--r-- 1 developer developer 1025 Apr 13 23:55 concat.c
+
 -rw-r--r-- 1 developer developer  418 Apr 13 23:55 execute.c
+
 -rw-r--r-- 1 developer developer 1195 Apr 14 00:17 findpath.c
+
 -rw-r--r-- 1 developer developer 1369 Apr 13 23:55 function_strings.c
+
 -rw-r--r-- 1 developer developer  409 Apr 13 23:55 get_line.c
+
 -rw-r--r-- 1 developer developer  586 Apr 14 00:18 not_interac.c
+
 -rw-r--r-- 1 developer developer  855 Apr 14 00:20 shell.c
+
 -rw-r--r-- 1 developer developer 1068 Apr 14 00:03 tokenizer.c
+
 Mafe simple_shell ±|main ✗|→ clear
 
 .SH AUTHOR
