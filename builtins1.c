@@ -20,7 +20,7 @@ int builtins_exec(char **arg, char *buffer)
 		return (-1);
 	while (i < 2)
 	{
-		if (strcmp(arg[0], builtins_str[i]) == 0)
+		if (_strcmp(arg[0], builtins_str[i]) == 0)
 			return ((*builtins_func[i])(arg, buffer));
 		i++;
 	}
