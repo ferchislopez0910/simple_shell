@@ -11,7 +11,7 @@ The user can specify that the standard output be redirected to a file, e.g:
         ** date >archivo 
 
 
-cambiar el flujo -> <p align="center"><img src='https://github.com/ferchislopez0910/simple_shell/blob/main/flowchart_shell.jpg' alt='Banner' width=50%></p> 
+<p align="center"><img src='https://github.com/ferchislopez0910/simple_shell/blob/main/flowchart_shell.jpg' alt='Banner' width=50%></p> 
 
 **_shell_("This is how to compile our shell");** 
  - compile our program like this:
