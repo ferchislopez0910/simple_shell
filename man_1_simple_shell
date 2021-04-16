@@ -1,19 +1,20 @@
-.TH man 1 "14 April 2021" "0.01" "simple shell" 
+.TH SIMPLE_SHELL "14 April 2021" "0.01" "simple shell"
 
-.SH SIMPLE_SHELL
+.SH NAME
+-simple_shell - command interpreter
+
+.SH SYNOPSIS
+.B ./hsh [command] [arg]
+
+.SH DESCRIPTION
+    SIMPLE_SHELL
 - It is a call to the system to execute what it contains on the command line.
 - This is a simple shell using the language C for interact with linux 
 operating system.
 
-.SH SYNOPSIS
-./hsh [command] [arg]
-
-.SH DESCRIPTION
-Simple_Shell is an interpreter of commands entered at the command line input,
-which allows you to perform different commands. 
-
 .SH Return
 If successful 0 and if not error message with: File or command not found.
+
 
 .SH PATH
 This is the path which it will tap and execute to find the command 
@@ -23,13 +24,57 @@ and give its successful return.
 The commands you can execute:
 
 - ls
+
 - CRTL + D
-- exit
+
 - clear
+
+- cd
+
+- ls
+
+- CRTL + D
+
+- clear
+
+- cd
+
+- pwd
+
+- ps
+
+- cd
+
+- mkdir
+
+- rm
+
+- touch
+
+- locate
+
+- find
+
+- grep
+
+- sudo
+
+- df
+
+- du
+
+.SH OPTIONS
+.B builtins
+
+- exit
+
+- ENV
 
 .SH EXAMPLE
 
-[command] [arg]
+$ ls
+
+AUTHORS  README.md  builtins1.c  concat.c  execute.c  findpath.c  flowchart_shell.jpg  function_strings.c  get_line.c  hsh  man_1_simple_shell  not_interac.c  sh  shell.c  shell.h  tokenizer.c
 
 $ ls -l
 
@@ -73,6 +118,10 @@ Mafe simple_shell ±|main ✗|→ ls -l *.c
 
 Mafe simple_shell ±|main ✗|→ clear
 
+.SH execute man
+
+write man man_1_simple_shell
+
 .SH AUTHOR
 Written by Maria Fernanda Lopez, Andres Vasquez.
 
@@ -81,3 +130,4 @@ Written in April 14th, 2021.
 
 .SH COPYRIGHT
 It currently doesn't have any copywright license registered.
+
