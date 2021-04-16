@@ -27,7 +27,6 @@ Enter the command to be executed:
 
        README.md  builtins1.c  concat.c  execute.c  findpath.c  function_strings.c  get_line.c  not_interac.c  prueba.txt  script.sh  shell  shell.c  shell.h  tokenizer.c
 
-
 You can also get more information and see some examples by consulting the **man_1_simple_shell** page, using this command:
 
 **man man_1_simple_shell**
