@@ -1,6 +1,4 @@
 <p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/Simp-01-01.png' alt='Banner' width=100%></p>
-<p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/nautilus-shell-of-sea-life-to-hear-the-sea-sound-for-relaxation.png' alt='Banner' width=20%></p>
-
 # Shell
 
 ## System calls
