@@ -1,4 +1,4 @@
-<p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/nautilus-shell-of-sea-life-to-hear-the-sea-sound-for-relaxation.png' alt='Banner' width=30%></p>
+<p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/nautilus-shell-of-sea-life-to-hear-the-sea-sound-for-relaxation.png' alt='Banner' width=20%></p>
 
 # Shell
 
@@ -7,7 +7,7 @@ The shell is a command call to the system, even if it is not part of the operati
 
 When any user logs on, a shell is started. The shell has the terminal as standard input and output. It begins by typing the prompt, a character like a dollar sign *$*, which tells the user that the shell is waiting to accept a command. If the user types date now for example, the shell creates a child process and executes the date program as a child. While the child process is running, the shell waits for it to finish. When the child process terminates, the shell rewrites the prompt and tries to read the next input line.
 
-<p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/New_Flow_Chart.png' alt='Banner' width=40%></p> 
+<p align="center"><img src='https://github.com/ferchislopez0910/holbertonschool-zero_day/blob/master/New_Flow_Chart.png' alt='Banner' width=50%></p> 
 
 **_shell_("This is how to compile our shell");** 
 
