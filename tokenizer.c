@@ -31,7 +31,6 @@ char **tokenizer(char *alloc)
  * @alloc: Pointer of line arguments
  * Return: int.
  */
-
 int count_words(char *alloc)
 {
 	int i = 0;
